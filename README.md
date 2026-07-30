@@ -39,6 +39,8 @@ The first LSTM training attempt appeared to converge (loss plateaued) but had ac
 
 To connect this to live prognostics monitoring (rather than a single static prediction), the trained LSTM was run in a simulated streaming mode over one held-out test engine (Engine 49, 303 cycles) — generating a live RUL prediction at every cycle as if new sensor data were arriving in real time. The resulting prediction curve shows a stable, high RUL estimate during the engine's healthy early life, followed by a clear downward trend as degradation becomes evident in later cycles — consistent with the underlying physical behavior visible in the raw sensor data.
 
+![Digital Twin RUL Prediction](images/digital_twin_plot.png)
+
 *(Note: this is a simulation replaying historical data cycle-by-cycle, not a live connection to physical sensors — an honest limitation worth stating clearly.)*
 
 ## What I'd improve with more time
