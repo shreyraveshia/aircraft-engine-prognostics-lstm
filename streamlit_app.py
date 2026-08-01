@@ -62,7 +62,7 @@ st.markdown(
     "A digital-twin style prognostics demo: an LSTM trained on NASA's C-MAPSS turbofan "
     "degradation dataset predicts **Remaining Useful Life (RUL)** — how many operating cycles "
     "an engine has left before failure — from multivariate sensor time-series data.\n\n"
-    "[View the full project & code on GitHub](YOUR_GITHUB_LINK_HERE)"
+    "[View the full project & code on GitHub](https://github.com/shreyraveshia/aircraft-engine-prognostics-lstm)"
 )
 
 st.divider()
