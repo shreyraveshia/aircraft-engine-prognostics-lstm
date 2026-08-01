@@ -1,6 +1,7 @@
 # Turbofan Engine Remaining Useful Life (RUL) Prediction — LSTM
 
 A deep learning approach to aircraft engine prognostics: predicting how many operational cycles remain before a turbofan engine fails, using multivariate sensor time-series data.
+
 🔗 [Live Demo](https://aircraft-engine-prognostics-lstm-dsnevfppq8gtekvqyo3scn.streamlit.app/)
 
 ## Problem
